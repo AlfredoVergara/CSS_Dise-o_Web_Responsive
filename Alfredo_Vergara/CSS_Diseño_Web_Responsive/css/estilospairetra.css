@@ -96,9 +96,19 @@ body {
 }
 
 #imagen1 img, #imagen2 img, #imagen3 img, #imagen4 img, #imagen5 img, #imagen6 img{
-	transition: all 1s;
-  -webkit-transition: all 1s;
 	box-shadow: 2px 2px black;
+}
+#imagen2 img, #imagen4 img, #imagen6 img{
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+	filter: grayscale(100%);
+}
+.redsocial img{
+	width: 10%;
+}
+
+#imagen3 img{
+	-webkit-filter: sepia(90%); /* Chrome, Safari, Opera */
+	filter: sepia(90%);
 }
 
 #imagen1 img{
