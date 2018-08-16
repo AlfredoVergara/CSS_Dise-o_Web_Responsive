@@ -8,6 +8,8 @@ body {
 #contenido {
 	display: flex;
 	flex-direction: column;
+	animation-duration: 1s;
+  animation-name: slidein;
 }
 
 #cabecera {
@@ -203,4 +205,16 @@ body {
 }
 .adaptativa-porcentaje-3{
 	width:20%;
+}
+
+@keyframes slidein {
+  0% {
+    margin-top: 150%;
+  }
+	60% {
+    margin-top: -5%;
+  }
+	100% {
+    margin-top: 0%;
+  }
 }
