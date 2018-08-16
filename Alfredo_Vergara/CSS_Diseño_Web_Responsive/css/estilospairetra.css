@@ -16,10 +16,7 @@ body {
 	height: 20%;
 }
 
-#imagencentral {
-	background-color: #82c3a6;
-}
-#imagensecundario {
+#galeria {
 	background-color: #d5c75f;
 	}
 
@@ -82,63 +79,44 @@ body {
 	text-decoration: none;
 	color: black;
 }
-#imagencentral > div {
-	text-align: center;
-	padding: 10px;
-	margin: 10px;
-	width: 100%;
-}
 
-#imagencentral > .contenedor > figure{
-	width: 80%;
-	margin: 0 auto;
-	}
-#imagencentral > .contenedor > figure > img{
-	border:1px;
-	width: 100%;
-	box-shadow: 2px 2px #02010a;
-}
-
-#imagensecundario .contenedor {
+#galeria .contenedor {
 	text-align: center;
 	padding: 10px;
 	width: 100%;
 	margin: 0 auto;
 	}
 
-#imagensecundario > .contenedor > figure{
+#galeria > .contenedor > figure{
 	width: 100%;
 }
-#imagensecundario > .contenedor > figure > img{
+#galeria > .contenedor > figure > img{
 	width: 90%;
 	border: solid 1px #02010a;
 }
 
-
-#imagen2 img{
-	width: 100%
-	transition: all 1s;
-  -webkit-transition: all 1s;
-	box-shadow: 2px 2px #02010a;
-}
-#imagen2 img:hover{
-	box-shadow: 2px 2px #82c3a6;
-	transform:rotate(10deg) scale(1,1);
-  -webkit-transform:rotate(10deg) scale(1,1);
-  -o-transform:rotate(10deg) scale(1,1);
-}
-
-#imagen3 img{
+#imagen1 img, #imagen2 img, #imagen3 img, #imagen4 img, #imagen5 img, #imagen6 img{
 	transition: all 1s;
   -webkit-transition: all 1s;
 	box-shadow: 2px 2px black;
 }
-#imagen3 img:hover{
-	transform:translate(20px,5px);
-  -webkit-transform:translate(20px,5px);
-  -o-transform:translate(20px,5px);
-	box-shadow: 2px 2px #82c3a6;
+
+#imagen1 img{
+	width: 100%
+	transition: all 1s;
+  -webkit-transition: all 1s;
+	box-shadow: 2px 2px #02010a;
+	-webkit-filter: blur(10px); /* Chrome, Safari, Opera */
+	filter: blur(10px);
 }
+
+
+#imagen2 img, #imagen4 img, #imagen6 img{
+	transition: all 1s;
+  -webkit-transition: all 1s;
+	box-shadow: 2px 2px black;
+}
+
 
 
 
@@ -158,28 +136,23 @@ body {
 		text-align: center;
 		font-size:1.5em;
 	}
+
 	#cabecera .contenedor > .texini{
 		text-align: center;
 		font-size:1.5em;
 	}
-	#imagensecundario .contenedor {
+
+	#galeria .contenedor {
 		text-align: center;
 		padding: 0vw;
 		width: 100%;
 		margin: 0vw;
 		}
-	#imagensecundario > .contenedor > figure{
+
+	#galeria > .contenedor > figure{
 		width: 100%;
 	}
-	#imagencentral > .contenedor > figure{
-		width: 90%;
-		margin: 1vw;
-		}
-	#imagencentral > .contenedor > figure > img{
-		border:1px;
-		width: 90%;
-		box-shadow: 2px 2px #02010a;
-	}
+
 	#final .contenedor > div {
 		padding: 1vw;
 		margin: 1vw;
